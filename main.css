@@ -1,0 +1,62 @@
+body{
+    background: rgb(70, 68, 68);
+    color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h1{
+    color: pink;
+}
+header{
+    background: rgb(29, 29, 29);
+    color: pink;
+    padding: 10px;
+}
+header nav{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: larger;
+}
+section{
+    background: whitesmoke;
+    color: rgb(70, 68, 68);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    background: rgb(29, 29, 29);
+    color: pink;
+    padding: 10px;
+}
+div{
+    color: rgb(70, 68, 68);
+    background: whitesmoke;
+    width: 100px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+h2{
+    color: whitesmoke;
+}
+a{
+    color: pink;
+}
+a:active{
+    text-decoration: none;
+    color: palevioletred;
+}
+.gallery{
+    display: flex;
+}
+.gallery figure img {
+    width: 100%;
+    box-shadow: rgb(70, 68, 68) 0px 0px 10px;
+    border: 2px solid rgb(70, 68, 68);
+}
