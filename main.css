@@ -1,10 +1,12 @@
 body{
+    padding: 0;
+    margin: 0;
     background: rgb(70, 68, 68);
     color: whitesmoke;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 h1{
-    color: pink;
+    color: palevioletred;
 }
 header{
     background: rgb(29, 29, 29);
@@ -54,9 +56,23 @@ a:active{
 }
 .gallery{
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
 }
 .gallery figure img {
-    width: 100%;
     box-shadow: rgb(70, 68, 68) 0px 0px 10px;
     border: 2px solid rgb(70, 68, 68);
+    width: 100%;
+    max-width: 500px;
+}
+.gallery figure figcaption{
+    text-align: center;
+    font-size: large;
+    padding: 15px;
+}
+footer{
+    color: rgb(70, 68, 68);
+    font-size: 10px;
+    text-align: center;
 }
