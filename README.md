@@ -4,10 +4,10 @@
 * Modular flexbox art gallery viewable on a device with any screen size.
 * Contact page.
 * Embeded video showcase page.
+* Contact form which sends an email to page owner.
 
 ### Planned: ###
 * PHP admin login for uploading of images without changing website code.
-* Contact form which sends an email to page owner.
 * Store for purchasing of art + Paypal support donations.
 
 ### Preview: ###
